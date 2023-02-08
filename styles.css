@@ -1,0 +1,48 @@
+nav{
+  height: 100vh;
+}
+nav div:first-child{
+  margin-top: 40px;
+}
+nav div{
+  margin-bottom: 30px;
+}
+nav div a{
+  font-size: larger;
+}
+
+
+@media screen and (max-width: 500px) {
+  nav a span{
+    display: none;
+  }
+  nav div a{
+    font-size: normal;
+  }
+  nav{
+    margin-left: -1.5rem;
+  }
+
+ 
+}
+
+@media screen and (max-width: 800px) {
+  nav a span{
+    display: none;
+  }
+  nav div a{
+    margin-left: 20px;
+    font-size: x-large;
+  }
+ 
+}
+
+@media only screen and (max-width: 1200px){
+  nav a span{
+    display: none;
+  }
+  nav div a{
+    margin-left:40%;
+    font-size: xx-large;
+  }
+}
